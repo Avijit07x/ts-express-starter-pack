@@ -1,0 +1,30 @@
+{
+	"name": "ts-express-starter-pack",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"dev": "tsx watch src/app.ts",
+		"build": "tsc --build --clean && tsc --build",
+		"start": "node dist/app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.7",
+		"envalid": "^8.0.0",
+		"express": "^5.1.0"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.17",
+		"@types/express": "^5.0.1",
+		"@types/node": "^22.14.1",
+		"nodemon": "^3.1.10",
+		"prettier": "^3.5.3",
+		"ts-node": "^10.9.2",
+		"tsx": "^4.19.4",
+		"typescript": "^5.8.2"
+	}
+}
