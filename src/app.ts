@@ -4,7 +4,7 @@ import env from "./utils/env";
 
 const app: Express = express();
 
-const PORT = process.env.PORT || 8000;
+const PORT = env.PORT || 8000;
 
 // CORS Configuration
 app.use(
